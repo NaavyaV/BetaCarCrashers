@@ -239,7 +239,7 @@ function draw() {
   fill(255, 0, 0, 100);
   strokeWeight(canArea/300000);
   stroke(255, 255, 0);
-  touchCircle = ellipse(mouseX, mouseY, canArea/30000);
+  touchCircle = ellipse(mouseX, mouseY, canArea/10000);
 
   if(player.y < canH / 1.15 && SD)
   player.y += playerYSpeed - (canH / 40);
