@@ -236,7 +236,7 @@ function draw() {
     SD = true;
   }
 
-  fill(255, 255, 0, 100);
+  fill(255, 0, 0, 100);
   strokeWeight(canArea/300000);
   stroke(255, 255, 0);
   touchCircle = ellipse(mouseX, mouseY, canArea/30000);
